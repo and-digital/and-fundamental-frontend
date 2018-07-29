@@ -57,17 +57,17 @@
 
     <section>
         <h2>Contact Me</h2>
-        <form action="http://localhost:5000" method="post">
+        <form action="" method="get">
             <label for="nameInput">Name
-                <input type="text" id="nameInput">
+                <input type="text" id="nameInput" name="name">
             </label>
 
             <label for="emailInput">Email Address
-                <input type="email" id="emailInput" required>
+                <input type="email" id="emailInput" name="email" required>
             </label>
 
             <label for="occupationInput">Occupation
-                <input id="occupationInput" list="occupationDatalist">
+                <input id="occupationInput" list="occupationDatalist" name="occupation">
                 <datalist id="occupationDatalist">
                     <option value="Developer"></option>
                     <option value="Analyst"></option>
@@ -77,10 +77,10 @@
             <fieldset>
                 <legend>Is KFC the best restaurant in the world?</legend>
                 <label for="yesKfcInput">Yes
-                    <input type="radio" name="kfcChoiceInputs" id="yesKfcInput">
+                    <input type="radio" name="kfcChoiceInputs" id="yesKfcInput" value="yes">
                 </label>
                 <label for="definitelyKfcInput">Definitely
-                    <input type="radio" name="kfcChoiceInputs" id="definitelyKfcInput">
+                    <input type="radio" name="kfcChoiceInputs" id="definitelyKfcInput" value="definitely">
                 </label>
             </fieldset>
 
