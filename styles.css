@@ -90,3 +90,9 @@ section, aside {
 .sidebar {
     float: right;
 }
+
+.sr-only {
+    position: absolute;
+    top: -1000px;
+    left: -1000px;
+}

@@ -70,32 +70,34 @@
 
         <form action="" method="post" class="contact-form">
             <p>Required fields marked with <span class="asterisk">*</span></p>
-            <label for="nameInput">Name
-                <input type="text" id="nameInput" name="name">
-            </label>
+            <label for="nameInput" class="sr-only">Name</label>
+            <input type="text" id="nameInput" name="name" placeholder="Name">
 
-            <label for="emailInput">Email Address <span class="asterisk">*</span>
-                <input type="email" id="emailInput" name="email" required>
-            </label>
+            <label for="emailInput" class="sr-only">Email Address <span class="asterisk">*</span></label>
+            <input type="email" id="emailInput" name="email" placeholder="Email" required>
 
-            <label for="occupationInput">Occupation
-                <input id="occupationInput" list="occupationDatalist" name="occupation">
+            <label for="occupationInput" class="sr-only">Occupation</label>
+            <input id="occupationInput" list="occupationDatalist" name="occupation" placeholder="Occupation">
                 <datalist id="occupationDatalist">
                     <option value="Developer"></option>
                     <option value="Analyst"></option>
                 </datalist>
-            </label>
 
             <fieldset>
                 <legend>Is KFC the best restaurant in the world?</legend>
-                <label for="yesKfcInput">
-                    <input type="radio" name="kfcChoiceInputs" id="yesKfcInput" value="yes" class="contact-form-radio">
-                    Yes
-                </label>
-                <label for="definitelyKfcInput">
-                    <input type="radio" name="kfcChoiceInputs" id="definitelyKfcInput" value="definitely" class="contact-form-radio">
-                    Definitely
-                </label>
+                <label for="yesKfcInput">Yes</label>
+                <input type="radio"
+                       name="kfcChoiceInputs"
+                       id="yesKfcInput"
+                       value="yes"
+                       class="contact-form-radio">
+
+                <label for="definitelyKfcInput">Definitely</label>
+                <input type="radio"
+                       name="kfcChoiceInputs"
+                       id="definitelyKfcInput"
+                       value="definitely"
+                       class="contact-form-radio">
             </fieldset>
 
             <button type="submit" class="submit-button">Submit</button>
