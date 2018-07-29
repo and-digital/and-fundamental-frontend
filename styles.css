@@ -1,13 +1,26 @@
-.navigation-links > li {
+* {
+    box-sizing: border-box;
+}
+
+.navigation-link {
     display: inline;
 }
 
-.navigation-links > li > a {
+.navigation-link > a {
     color: green;
+}
+
+.navigation-link::after {
+    content: "|";
+}
+
+.navigation-link:last-child::after {
+    content: "";
 }
 
 .about-me-content::first-letter {
     font-weight: bold;
+    font-size: 2em;
 }
 
 .asterisk {
@@ -33,4 +46,10 @@
 .submit-button {
     background-color: green;
     color: white;
+}
+
+.hero {
+    width: 100vw;
+    height: 100vh;
+    background-color: aquamarine;
 }
