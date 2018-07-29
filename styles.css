@@ -11,23 +11,40 @@ section, aside {
     padding: 5px;
 }
 
-.navigation-link {
+.hero {
+    width: 100vw;
+    height: 100vh;
+    background-color: aquamarine;
+    padding: 30% 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.hero__inner {
+    text-align: center;
+}
+
+.hero__inner--left {
+    text-align: left;
+}
+
+.navigation__link {
     display: inline;
 }
 
-.navigation-link > a {
+.navigation__link > a {
     color: green;
 }
 
-.navigation-link::after {
+.navigation__link::after {
     content: "|";
 }
 
-.navigation-link:last-child::after {
+.navigation__link:last-child::after {
     content: "";
 }
 
-.about-me-content::first-letter {
+.about-me__content::first-letter {
     font-weight: bold;
     font-size: 2em;
 }
@@ -61,26 +78,13 @@ section, aside {
     border-color: red;
 }
 
-.contact-form-radio {
+.contact-form__radio {
     display: inline!important;
 }
 
-.submit-button {
+.contact-form__submit {
     background-color: green;
     color: white;
-}
-
-.hero {
-    width: 100vw;
-    height: 100vh;
-    background-color: aquamarine;
-    padding: 30% 0;
-    margin-left: 0;
-    margin-right: 0;
-}
-
-.hero-inner {
-    text-align: center;
 }
 
 .main-figure {
