@@ -18,16 +18,30 @@
             </li>
         </ul>
     </nav>
-    <div class="hero">
-        <h1><span itemprop="givenName">Blair</span> <span itemprop="familyName">Calderwood</span></h1>
-        <p itemprop="jobTitle">Product Developer</p>
-        <p itemprop="worksFor">AND Digital</p>
-    </div>
+    <section class="hero">
+        <div class="hero-inner">
+            <h1><span itemprop="givenName">Blair</span> <span itemprop="familyName">Calderwood</span></h1>
+            <p itemprop="jobTitle">Product Developer</p>
+            <p itemprop="worksFor">AND Digital</p>
+        </div>
+    </section>
 </header>
 
 <main>
-    <figure>
-        <img src="118.jpg" alt="" width="300px">
+    <aside class="sidebar border">
+        <h2>My Social Profiles</h2>
+        <ul>
+            <li>
+                <a href="http://github.com/blaircalderwood">Github</a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/blaircalderwood/">LinkedIn</a>
+            </li>
+        </ul>
+    </aside>
+
+    <figure class="main-figure border">
+        <img src="118.jpg" alt="" width="100%">
         <figcaption>Me on the famous AND Digital red chair.</figcaption>
     </figure>
 
@@ -49,23 +63,11 @@
         <p>Watching Sam while he sleeps.</p>
     </section>
 
-    <aside>
-        <h2>My Social Profiles</h2>
-        <ul>
-            <li>
-                <a itemprop="email" href="mailto:bcalderwood@and.digital">bcalderwood@and.digital</a>
-            </li>
-            <li>
-                <a href="http://github.com/blaircalderwood">Github</a>
-            </li>
-            <li>
-                <a href="https://www.linkedin.com/in/blaircalderwood/">LinkedIn</a>
-            </li>
-        </ul>
-    </aside>
-
-    <section>
+    <section class="contact-me border">
         <h2>Contact Me</h2>
+        <a itemprop="email" href="mailto:bcalderwood@and.digital">bcalderwood@and.digital</a>
+        <p>Feel free to contact me on my email above or by using the contact form.</p>
+
         <form action="" method="post" class="contact-form">
             <p>Required fields marked with <span class="asterisk">*</span></p>
             <label for="nameInput">Name
@@ -86,11 +88,13 @@
 
             <fieldset>
                 <legend>Is KFC the best restaurant in the world?</legend>
-                <label for="yesKfcInput">Yes
-                    <input type="radio" name="kfcChoiceInputs" id="yesKfcInput" value="yes">
+                <label for="yesKfcInput">
+                    <input type="radio" name="kfcChoiceInputs" id="yesKfcInput" value="yes" class="contact-form-radio">
+                    Yes
                 </label>
-                <label for="definitelyKfcInput">Definitely
-                    <input type="radio" name="kfcChoiceInputs" id="definitelyKfcInput" value="definitely">
+                <label for="definitelyKfcInput">
+                    <input type="radio" name="kfcChoiceInputs" id="definitelyKfcInput" value="definitely" class="contact-form-radio">
+                    Definitely
                 </label>
             </fieldset>
 
