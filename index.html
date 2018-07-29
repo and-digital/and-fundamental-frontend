@@ -55,6 +55,39 @@
         </ul>
     </aside>
 
+    <section>
+        <h2>Contact Me</h2>
+        <form action="http://localhost:5000" method="post">
+            <label for="nameInput">Name
+                <input type="text" id="nameInput">
+            </label>
+
+            <label for="emailInput">Email Address
+                <input type="email" id="emailInput" required>
+            </label>
+
+            <label for="occupationInput">Occupation
+                <input id="occupationInput" list="occupationDatalist">
+                <datalist id="occupationDatalist">
+                    <option value="Developer"></option>
+                    <option value="Analyst"></option>
+                </datalist>
+            </label>
+
+            <fieldset>
+                <legend>Is KFC the best restaurant in the world?</legend>
+                <label for="yesKfcInput">Yes
+                    <input type="radio" name="kfcChoiceInputs" id="yesKfcInput">
+                </label>
+                <label for="definitelyKfcInput">Definitely
+                    <input type="radio" name="kfcChoiceInputs" id="definitelyKfcInput">
+                </label>
+            </fieldset>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
     <footer>©KFC</footer>
 </main>
 </body>
