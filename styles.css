@@ -1,0 +1,36 @@
+.navigation-links > li {
+    display: inline;
+}
+
+.navigation-links > li > a {
+    color: green;
+}
+
+.about-me-content::first-letter {
+    font-weight: bold;
+}
+
+.asterisk {
+    color: red;
+}
+
+.contact-form input {
+    border: 4px solid;
+}
+
+.contact-form input:focus {
+    border-color: orange;
+}
+
+.contact-form input:valid {
+    border-color: green;
+}
+
+.contact-form input:invalid {
+    border-color: red;
+}
+
+.submit-button {
+    background-color: green;
+    color: white;
+}
