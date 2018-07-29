@@ -6,6 +6,7 @@
 </head>
 <body>
 <header>
+    <a href="#aboutMe">Skip to content</a>
     <nav>
         <ul>
             <li>
@@ -25,7 +26,7 @@
         <figcaption>Me on the famous AND Digital red chair.</figcaption>
     </figure>
 
-    <section>
+    <section id="aboutMe">
         <h2>About Me</h2>
         <p>Since graduating from my Masters Degree in Computing Science I have obtained around two years of development
             experience. I was a Python developer for a year before moving to AND Digital. My main skills lie within full
@@ -57,12 +58,13 @@
 
     <section>
         <h2>Contact Me</h2>
-        <form action="" method="get">
+        <form action="" method="post">
+            <p>Required fields marked with *</p>
             <label for="nameInput">Name
                 <input type="text" id="nameInput" name="name">
             </label>
 
-            <label for="emailInput">Email Address
+            <label for="emailInput">Email Address *
                 <input type="email" id="emailInput" name="email" required>
             </label>
 
