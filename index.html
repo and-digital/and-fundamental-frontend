@@ -7,15 +7,15 @@
 </head>
 
 <body>
-  <h1>
+  <main>
     <nav>
       <a href="#">Home</a>
       <a href="#">Contact</a>
     </nav>
-  </h1>
-  <h2>
-    Jordan - Associate Product Developer - AND Digital
-  </h2>
+    <h1>
+      Jordan - Associate Product Developer - AND Digital
+    </h1>
+  </main>
 
   <!-- <img src="./london_sept_174.jpg" alt="" height="210" width="140"> -->
   <figure>
@@ -23,36 +23,79 @@
   </figure>
   Picture with Elina after the Christmas parties for my Ada Bonus goal of meeting someone new outside of Ada club.
 
-  <h2>About</h2>
+  <section>
+    <h2>About</h2>
+    <p>
+      A recent Computer Science Graduate from <i>Liverpool University</i>, Jordan is a developer with full-stack
+      experience in languages including Java, Swift and Javascript.
+    </p>
+    <p>
+      Following University Jordan worked as a software engineer at Sensor City, a global hub offering existing
+      companies
+      and startups technical expertise to develop a fully working technological product, before joining AND Digital as
+      a
+      Product Developer.
+    </p>
+  </section>
+
+  <section>
+    <h2>My Personal Interests</h2>
+    <p>
+      <b>Food</b>, Sports, Fitness, Tech, Games
+    </p>
+  </section>
+
+  <section>
+    <h2>My Profile Links</h2>
+    <ul>
+      <li>
+        <a href="https://github.com/jchiversAND">Github</a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/jordan-chivers-a66901153/">LinkedIn</a>
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <hr>
+    <h2>Contact me:</h2>
+    <a href="mailto:jchivers@and.digital">jchivers@and.digital</a>
+
+    <form action="#">
+      <p>
+        <label for="nameInput">Name:</label>
+        <input type="text" name="name">
+      </p>
+      <p>
+        <label for="emailInput">Email:</label>
+        <input type="text" name="email">
+      </p>
+      <p>
+        <label for="occupation">Occupation:</label>
+        <input list="occupationList" name="occupation">
+        <datalist id="occupationList">
+          <option value="Developer">Developer</option>
+          <option value="Analyst">Analyst</option>
+        </datalist>
+      </p>
+      <p>
+        <label for="kfc">Is KFC the best restaurant in the universe?</label>
+        <input type="radio" name="kfc" value="Yes">Yes</input>
+        <input type="radio" name="kfc" value="Definitely">Definitely</input>
+
+      </p>
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <hr>
+
   <p>
-    A recent Computer Science Graduate from <i>Liverpool University</i>, Jordan is a developer with full-stack
-    experience in languages including Java, Swift and Javascript.
-  </p>
-  <p>
-    Following University Jordan worked as a software engineer at Sensor City, a global hub offering existing companies
-    and startups technical expertise to develop a fully working technological product, before joining AND Digital as a
-    Product Developer.
+    <footer>&copy; AND</footer>
   </p>
 
-  <h2>My Personal Interests</h2>
-  <p>
-    <b>Food</b>, Sports, Fitness, Tech, Games
-  </p>
-
-  <h2>My Profile Links</h2>
-  <ul>
-    <li>
-      <a href="https://github.com/jchiversAND">Github</a>
-    </li>
-    <li>
-      <a href="https://www.linkedin.com/in/jordan-chivers-a66901153/">LinkedIn</a>
-    </li>
-    <li>
-      <a href="mailto:jchivers@and.digital">jchivers@and.digital</a>
-    </li>
-  </ul>
-
-  <footer>&copy AND</footer>
 </body>
 
 </html>
