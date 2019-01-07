@@ -1,28 +1,36 @@
-<!doctype>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Hello</title>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fundamental Frontend</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="AND Digital Frontend tutorials">
+    <meta name="author" content="Emmanuel Ferreyra">
+    <meta name="keywords" content="HTML,CSS,JavaScript">
+</head>
+<body>
+    <form action="">
+        <div class="imgcontainer">
+            <img src="./src/resources/ANDigital_log.webp" alt="And Digital" style="width: 20%;" class="avatar">
+        </div><br>
 
-    <link rel="stylesheet" href="/styles/styles.css">
-  </head>
-  <body>
+        <div class="container">
+            <label for="uname"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required><br>
 
-  <i class="far fa-envelope" aria-hidden="true"></i>
-  <i class="far fa-facebook" aria-hidden="true"></i>
-  <i class="far fa-github" aria-hidden="true"></i>
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required><br><br>
 
-  <form action="#" method="post">
-    <label for="">
-      name
-      <input type="text" name="name">
-    </label>
+            <button type="submit">Login</button>
+            <label>
+                <input type="checkbox" checked="checked" name="remember"> Remember me
+            </label>
+        </div>
 
-    <label for="">
-      email
-      <input type="email" name="email">
-    </label>
-    <button type="submit">submit</button>
-  </form>
-  </body>
+        <div class="container" style="background-color:#f1f1f1">
+            <button type="button" class="cancelbtn">Cancel</button>
+            <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+    </form>
+</body>
+
 </html>
