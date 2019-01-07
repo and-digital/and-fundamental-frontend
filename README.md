@@ -32,3 +32,6 @@ Take a look at them in `w3schools.com/tags`.
 * Phrasing Content
 
 *GOOD TOOL: `https://caniuse.com/`.*
+
+# Document Outline
+

@@ -14,6 +14,7 @@
   "license": "ISC",
   "homepage": "https://github.com/and-digital/and-fundamental-frontend#readme",
   "dependencies": {
+    "bootstrap": "^4.2.1",
     "browser-sync": "^2.24.4",
     "install": "^0.12.1",
     "npm": "^6.2.0"
