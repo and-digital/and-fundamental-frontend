@@ -50,17 +50,21 @@
         <li><a href="mailto:nleitnerova@and.digital">Email</a></li>
       </ul>
       <h3>Contact Me</h3>
-      <form action="void" method="GET">
-        <p>Name: <input type="text" name="name"></p>
-        <p>Email: <input type="text" name="email" required></p>
-        <p>Occupation: <input list="occupation" name="occupation"></p>
+      <form action="void" method="POST">
+        <label for="name">Name</label> <!--label 'for' field links the label to input's id -- important for accessibility-->
+        <input id= "name" type="text" name="name"><br> <!--name is for key value pairs sent to the server-->
+        <label for="email">Email</label>
+        <input id="email" type="text" name="email" required><br>
+        <label for="occ_list">Occupation</label>
+        <input id="occ_list" list="occupation" name="occupation"><br>
         <datalist id="occupation">
           <option value="Developer"></option>
           <option value="Analyst">
         </datalist>
         <p>Is KFC the best restaurant in the universe?</p>
-        <p><input type="radio" name="KFC" value="Yes">Yes
-        <input type="radio" name="KFC" value="No">Definitely NOT</p>
+        <input type="radio" name="KFC" value="Yes">Yes</input>
+        <input type="radio" name="KFC" value="No">Definitely NOT</input>
+        <br>
         <input type="submit" value="Submit">
       </form>
     </section>
