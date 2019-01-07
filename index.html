@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Doc title is here - not visible in browser</title>
+  <title>Natalia profile</title>
   <meta charset="UTF-8">
 </head>
 <body>
@@ -10,9 +10,12 @@
       <a href="#home">Home</a>
       <a href="#contact">Contact</a>
     </nav>
+    <hr>
+  <h1>Natalia's Profile</h1>
   </header>
-  <hr>
+  <main>
   <section>
+    <h2>My details</h2>
     <p>Natalia Leitnerova</p>
     <p>Associate</p>
     <p>AND Digital</p>
@@ -24,13 +27,13 @@
         </figure>
   </section>
   <section>
-    <h4>About</h4>
+    <h3>About</h3>
     <p>After finishing my BA in International Business I started working for a family company
        but gradually decided to transition into tech. 
        That led me to a conversion MSc course in Computing and Information Systems and consequently to AND Digital.</p>
   </section>
   <section>
-    <h4>My personal interests</h4>
+    <h3>My personal interests</h3>
     <ul>
       <li>Hiking</li>
       <li>Skiing</li>
@@ -38,18 +41,35 @@
       <li>Kayaking</li>
     </ul>
   </section>
-  <section id="#contact">
-      <h4>My Social Profiles</h4>
+  <section id="contact">
+      <h3>My Social Profiles</h3>
       <ul>
         <li><a href="https://github.com/algiduska">Github</a>
         </li>
         <li><a href="https://www.linkedin.com/in/natalia-leitnerova/">LinkedIn</a></li>
         <li><a href="mailto:nleitnerova@and.digital">Email</a></li>
       </ul>
+      <h3>Contact Me</h3>
+      <form action="void" method="GET">
+        <p>Name: <input type="text" name="name"></p>
+        <p>Email: <input type="text" name="email" required></p>
+        <p>Occupation: <input list="occupation" name="occupation"></p>
+        <datalist id="occupation">
+          <option value="Developer"></option>
+          <option value="Analyst">
+        </datalist>
+        <p>Is KFC the best restaurant in the universe?</p>
+        <p><input type="radio" name="KFC" value="Yes">Yes
+        <input type="radio" name="KFC" value="No">Definitely NOT</p>
+        <input type="submit" value="Submit">
+      </form>
     </section>
-    <footer>
-      <p>NL Production®</p>
-    </footer>
+  </main>
+  <br>
+  <hr>
+  <footer>
+     <p>NL Production®</p>
+  </footer>
   
 
   
