@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Contact Me</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+            <a href="index.html">Home</a>
+            <a href="contact-me.html">Contact</a>
+            </nav>
+        </header>
+        <main>
+            <h1>Contact Me </h1>
+            <section>
+                <form action="/action_page.php">
+                    <label for="name">Name</label>
+                    <input type="text" name="name"/>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" placeholder="name@and.digital" required/>
+                    <label for="role">Role:</label>
+                    <input list="roles" name="role" />
+                    <datalist id="roles">
+                        <option value="Analyst">
+                        <option value="Developer">
+                        <option value="Scrum Master">
+                        <option value="Product Owner">
+                        <option value="The Boss">
+                    </datalist>
+                    <label for="the-best">Is KFC the best restaurant in the world?</label>
+                    <input type="radio" name="the-best" value="Yes"/>Yes </input>
+                    <input type="radio" name="the-best" value="Definitely"/>Definitely</input>
+                    <button type="submit" value="submit">Submit</button>
+                </form>
+            </section>
+        </main>
+    </body>
+</html>
