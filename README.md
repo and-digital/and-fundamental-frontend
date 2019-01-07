@@ -35,3 +35,9 @@ Take a look at them in `w3schools.com/tags`.
 
 # Document Outline
 
+# Accessibility
+
+A11Y: `https://a11yproject.com`.
+
+Exercise: `https://a11yproject.com/posts/skip-nav-links/`.
+
