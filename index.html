@@ -9,9 +9,9 @@
         <a href="/#/">Home</a> |
         <a href="/#/">Contact</a> |
         </nav>
-        <p>Filippos Siokouros</p>
-        <p>Product Developer</p>
-        <p>AND Digital</p>
+        <h1>Filippos Siokouros</h1>
+        <h2>Product Developer</h2>
+        <h3>AND Digital</h3>
         <figure>
             <img src="/resources/filippos.jpg" height="300" width="200">
         </figure>
@@ -34,6 +34,40 @@
             <li><a href="https://www.linkedin.com/in/filippos-siokouros-168565112/">LinkedIn</a></li>
             <li><a href="mailto:fsiokouros@and.digital">Email me</a></li>
         </ul>
+
+        <h2>Contact me</h2>
+        <a href="#">fsiokouros@and.digital</a>
+        <form action="#" method="GET">
+            <p>
+                <label>Name: </label>
+                <input name="name" type="text">
+            </p>
+            <p>
+                <label>Email</label>
+                <input name="email" type="email" required>
+            </p>
+            <p>
+                <label>Occupation</label>
+                <input list="occupations" name="occupation">
+            </p>    
+            <p>
+                <datalist id="occupations">
+                    <option value="Developer">
+                    <option value="Analyst">
+                </datalist>
+            </p>
+            <p>
+                <label>Is KFC the best restaurant in the universe?</label>
+            </p>
+                <input type="radio" name="restaurant" value="Yes"> Yes<br>
+                <input type="radio" name="restaurant" value="Definitily"> Definitily<br>  
+          
+            <button type="submit">Submit</button>
+        </form>
+
+
+
+
         <footer>&copy AND Digital</footer>
   </body>
 </html>
