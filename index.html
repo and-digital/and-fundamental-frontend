@@ -6,26 +6,28 @@
         <title>About Elina</title>
     </head>
     <body>
+      <a href="#main">Skip to main content</a>
       <header>
-        <nav>
+          <nav>
           <a href="index.html">Home</a>
           <a href="contact-me.html">Contact</a>
-        </nav>
+          <a href="#">Something fun</a>
+          </nav>
       </header>
-      <main>
-        <section>
-          <h1>Elina Lulle</h1>
-          <p>Product Analyst</p>
-          <p>AND Digital</p>
+      <main id="main" role="main">
+        <section itemScope itemType="https://schema.org/Person">
+          <h1 itemProp="name">Elina Lulle</h1>
+          <p itemProp="jobTitle">Product Analyst</p>
+          <p itemprop="worksFor">AND Digital</p>
           <figure>
-            <img alt="Elina Lulle" src="https://static.andigital.com/wp-content/uploads/2017/03/21103443/Elina-Square-300x300.png">
+            <img itemprop="image" alt="Elina Lulle" src="https://static.andigital.com/wp-content/uploads/2017/03/21103443/Elina-Square-300x300.png">
             <figcaption>Elina Lulle, Lunar, Dekker</figcaption>
           </figure>
         </section>
 
         <section>
           <h2>About me</h2>
-          <p>
+          <p itemprop="description">
             After graduating from the University of Exeter, 
             I worked as a web developer for an innovative enterprise and then moved on to work 
             at Imperial College London as a web developer. Before joining AND Digital, I jetted

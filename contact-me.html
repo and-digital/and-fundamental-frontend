@@ -5,22 +5,25 @@
         <title>Contact Me</title>
     </head>
     <body>
+        <a href="#main">Skip to main content</a>
         <header>
             <nav>
             <a href="index.html">Home</a>
             <a href="contact-me.html">Contact</a>
+            <a href="#">Something fun</a>
             </nav>
         </header>
-        <main>
+        <main id="main" role="main">
             <h1>Contact Me </h1>
             <section>
-                <form action="/action_page.php">
+                <form action="/action_page.php" method="POST">
                     <label for="name">Name</label>
-                    <input type="text" name="name"/>
+                    <input id="name" type="text" name="name"/>
                     <label for="email">Email:</label>
-                    <input type="email" name="email" placeholder="name@and.digital" required/>
+                    <span aria-hidden="true">*</span>
+                    <input id="email" type="email" name="email" placeholder="name@and.digital" required/>
                     <label for="role">Role:</label>
-                    <input list="roles" name="role" />
+                    <input id="role" list="roles" name="role" />
                     <datalist id="roles">
                         <option value="Analyst">
                         <option value="Developer">
@@ -28,9 +31,14 @@
                         <option value="Product Owner">
                         <option value="The Boss">
                     </datalist>
-                    <label for="the-best">Is KFC the best restaurant in the world?</label>
-                    <input type="radio" name="the-best" value="Yes"/>Yes </input>
-                    <input type="radio" name="the-best" value="Definitely"/>Definitely</input>
+                    <!--This can be moved to a fieldset-->
+                    <fieldset>
+                        <legend>Is KFC the best restaurant in the world?</legend>
+                        <label for="yes">Yes</label>
+                        <input id="yes" type="radio" name="the-best" value="Yes">
+                        <label for"definitely">Definitely</label>
+                        <input id="definitely" type="radio" name="the-best" value="Definitely">
+                    </fieldset>
                     <button type="submit" value="submit">Submit</button>
                 </form>
             </section>
