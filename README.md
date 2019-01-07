@@ -41,3 +41,15 @@ A11Y: `https://a11yproject.com`.
 
 Exercise: `https://a11yproject.com/posts/skip-nav-links/`.
 
+# Search Engine Optimization (SEO)
+
+* Page Speed
+* Correct heading structure
+...
+* SiteMap
+* optimize images
+* Metadata
+
+*Useful properties for entities, in order to improve your search accuracy*: `https://schema.org/Person`.
+
+*Testing Tool:* `https://search.google.com/structured-data/testing-tool/u/0/`.

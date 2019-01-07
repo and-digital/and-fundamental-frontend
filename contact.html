@@ -23,38 +23,40 @@
         <section>
             <h2>Write me</h2>
             <form method="POST">
-                <div class="input-group mb-3 rounded">
-                    <div class="input-group-prepend">
-                        <label class="input-group-text" id="basic-addon1">Email:</label>
-                    </div>
-                    <input type="email" class="form-control" placeholder="email" aria-describedby="Fill your email"><b>*</b>
-                </div>
-                <div class="input-group">
-                    <div class="input-group-prepend">
-                        <label class="input-group-text">what do you need?</label>
-                    </div>
-                    <textarea class="form-control" aria-label="fill what do you need?"></textarea>
-                </div><br>
-                <div class="input-group mb-3">
-                    <div class="input-group-prepend">
-                        <label class="input-group-text" id="basic-addon1" aria-label="ocupation">Ocupation:</label>
-                    </div>
-                    <select class="custom-select">
-                        <option selected>Choose...</option>
-                        <option value="developer">Developer</option>
-                        <option value="analyst">Analyst</option>
-                        <option value="manager">Manager</option>
-                    </select>
-                </div><br><br>
-                <div class="input-group">
-                    <div class="input-group-prepend">
-                        <div class="input-group-text">
-                            Is KFC the best restaurant in the universe?
+                <div itemscope itemtype="http://schema.org/Person">
+                    <div class="input-group mb-3 rounded">
+                        <div class="input-group-prepend">
+                            <label class="input-group-text" id="basic-addon1" itemprop="email">Email:</label>
                         </div>
+                        <input type="email" class="form-control" placeholder="email" aria-describedby="Fill your email"><b>*</b>
                     </div>
-                    <input type="radio" name="kfc-yes" value="yes" aria-label="yes"> Yes</input><br>
-                    <input type="radio" name="kfc-definitely" value="definitely" aria-label="no"> Definitely</input>
-                </div><br><br>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <label class="input-group-text">what do you need?</label>
+                        </div>
+                        <textarea class="form-control" aria-label="fill what do you need?"></textarea>
+                    </div><br>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <label class="input-group-text" id="basic-addon1" aria-label="ocupation" itemprop="email">Ocupation:</label>
+                        </div>
+                        <select class="custom-select">
+                            <option selected>Choose...</option>
+                            <option value="developer">Developer</option>
+                            <option value="analyst">Analyst</option>
+                            <option value="manager">Manager</option>
+                        </select>
+                    </div><br><br>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">
+                                Is KFC the best restaurant in the universe?
+                            </div>
+                        </div>
+                        <input type="radio" name="kfc-yes" value="yes" aria-label="yes"> Yes</input><br>
+                        <input type="radio" name="kfc-definitely" value="definitely" aria-label="no"> Definitely</input>
+                    </div><br><br>
+                </div>
 
                 <input type="submit" name="Send" class="btn btn-primary">
             </form>
