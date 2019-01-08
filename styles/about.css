@@ -5,4 +5,13 @@ a {
 .about-me::first-letter {
     color: blueviolet !important;
     font-weight: bold;
+    font-size: 2em;
+}
+
+#developer-name {
+    font-size: 4em;
+}
+
+#developer-image {
+    margin-right: 1em;
 }
