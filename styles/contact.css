@@ -1,0 +1,9 @@
+input[type=radio]:checked+label  {
+    font-weight: bold;
+    color: chartreuse;
+}
+
+input:invalid {
+    color: yellow;
+    font-weight: bold;
+}

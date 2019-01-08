@@ -22,7 +22,7 @@
         <h1>Contact</h1>
         <section>
             <h2>Write me</h2>
-            <form method="POST">
+            <form method="GET">
                 <div itemscope itemtype="http://schema.org/Person">
                     <div class="input-group mb-3 rounded">
                         <div class="input-group-prepend">
@@ -53,8 +53,10 @@
                                 Is KFC the best restaurant in the universe?
                             </div>
                         </div>
-                        <input type="radio" name="kfc-yes" value="yes" aria-label="yes"> Yes</input><br>
-                        <input type="radio" name="kfc-definitely" value="definitely" aria-label="no"> Definitely</input>
+                        <fieldset>
+                            <input type="radio" name="kfc" value="yes" aria-label="yes"><label>Yes</label></input><br>
+                            <input type="radio" name="kfc" value="definitely" aria-label="no"><label>Definitely</label></input>
+                        </fieldset>
                     </div><br><br>
                 </div>
 
@@ -70,6 +72,7 @@
         crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
         crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles/contact.css">
 </body>
 
 </html>

@@ -1,0 +1,8 @@
+a {
+    color: brown;
+}
+
+.about-me::first-letter {
+    color: blueviolet !important;
+    font-weight: bold;
+}

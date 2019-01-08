@@ -53,3 +53,34 @@ Exercise: `https://a11yproject.com/posts/skip-nav-links/`.
 *Useful properties for entities, in order to improve your search accuracy*: `https://schema.org/Person`.
 
 *Testing Tool:* `https://search.google.com/structured-data/testing-tool/u/0/`.
+
+# Fundamental Front-End Day 2/2
+
+## CSS
+
+### Browser defaults & Normalise/CSS reset
+
+Better for Normalise rather than Reset.
+
+### Pseudo and combinations
+
+* `:link`
+* `:hover`
+* `:checked`
+* `:focus`
+* `:active`
+* `:required`
+
+### Pseudo elements
+
+* `::after`
+* `::before`
+* `::first-letter`
+* `::first-line`
+* `::selection`
+
+### Other attributes selectors
+
+* 
+
+## Unit
