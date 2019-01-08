@@ -154,6 +154,31 @@ https://codepen.io/fundamental-frontend/
 
 ### CSS Grid! :D 
 
+`https://css-tricks.com/snippets/css/complete-guide-grid/#prop-grid-template-columns-rows`
+
 It opens a different dimension on the way you thing structure in your page.
 
 **GOOD ARTICLE SUGGESTED BY ELINA: `https://medium.freecodecamp.org/learn-css-grid-in-5-minutes-f582e87b1228`.**
+
+## Media Qeries
+
+```css
+@media only screen and (max-width: 600px) {
+    .grid {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        grid-template-areas: "header" "header" "header" "header" "header" "main" "main" "." "." "sidebar" "footer" "footer" "footer" "footer" "footer";
+        grid-gap: 15px 10px; /* row, column */
+        justify-items: stretch; /* start | end | center | stretch */
+        align-items: center; /* start | end | center | stretch; */
+    }
+
+    .grid__cell {
+        padding: 10px;
+        font-size: 2em;
+        color: darkmagenta;
+        font-weight: bold;
+    }
+}
+```
