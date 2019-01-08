@@ -1,42 +1,17 @@
-@font-face {
-  font-family: 'font_awesome';
-  font-style: normal;
-  font-weight: 900;
-  src: url("../fonts/fa-regular-400.eot");
-  src: url("../fonts/fa-regular-400.eot?#iefix") format("embedded-opentype"),
-    url("../fonts/fa-regular-400.woff2") format("woff2"),
-    url("../fonts/fa-regular-400.woff") format("woff"),
-    url("../fonts/fa-regular-400.ttf") format("truetype"),
-    url("../fonts/fa-regular-400.svg#fontawesome") format("svg");
+.link {
+  color: red;
 }
-
-@font-face {
-  font-family: 'brands';
-  font-style: normal;
-  font-weight: 900;
-  src: url("../fonts/fa-brands-400.eot");
-  src: url("../fonts/fa-brands-400.eot?#iefix") format("embedded-opentype"),
-  url("../fonts/fa-brands-400.woff2") format("woff2"),
-  url("../fonts/fa-brands-400.woff") format("woff"),
-  url("../fonts/fa-brands-400.ttf") format("truetype"),
-  url("../fonts/fa-brands-400.svg#fontawesome") format("svg");
+.about::first-letter {
+  color:blue;
+  font-size: 20px;
 }
-
-.far {
-  font-family: 'font_awesome', 'brands';
-  font-weight: 400;
-  font-style: normal;
+.input:invalid {
+  background-color: pink;
 }
-
-
-.fa-envelope::before {
-  content: '\f0e0';
-}
-
-.fa-facebook:before {
-  content: '\f39e';
-}
-
-.fa-github:before {
-  content: '\f09b';
+input:checked + label {
+  color: #ccc;
+  font-style: italic;
+} 
+a[href^="http"] {
+  color:yellow;
 }
