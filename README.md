@@ -125,3 +125,25 @@ https://codepen.io/fundamental-frontend/
         <span class="sr-only">This is an external link</span>
     </a>
 ```
+
+## CSS Methodologies
+
+* BEM (Block Element Modifier):
+
+
+```css
+.block-element {
+    // styling..
+}
+
+.block-element__button {
+    // styling..
+}
+
+```
+
+* ITCSS (Inverted Triagle CSS)
+
+1. Settings
+...
+6. Trumps

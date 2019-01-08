@@ -12,13 +12,28 @@ a {
     font-size: 4em;
 }
 
-#developer-info {
-    padding-left: 1em;
+.person-info {
     float: left;
 }
 
-#developer-image {
+.person-info__text {
+    padding-left: 1em;
+}
+
+.person-info__text--blue {
+    padding-left: 1em;
+    color: blue;
+}
+
+.person-info__text--red {
+    padding-left: 1em;
+    color: red;
+}
+
+.person-info__image {
     float: left;
+    border-color: coral;
+    border-width: 1em;
 }
 
 .clearfix:after {
