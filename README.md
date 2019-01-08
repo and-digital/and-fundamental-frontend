@@ -56,6 +56,8 @@ Exercise: `https://a11yproject.com/posts/skip-nav-links/`.
 
 # Fundamental Front-End Day 2/2
 
+`https://docs.google.com/presentation/d/1F4hh2MZZretRiIdA6OuUaZ3tQNaWNbcv6S1yA2XZSQE/edit#slide=id.g665761733def5be2_0`.
+
 ## CSS
 
 ### Browser defaults & Normalise/CSS reset
@@ -147,3 +149,11 @@ https://codepen.io/fundamental-frontend/
 1. Settings
 ...
 6. Trumps
+
+## Grid Systems
+
+### CSS Grid! :D 
+
+It opens a different dimension on the way you thing structure in your page.
+
+**GOOD ARTICLE SUGGESTED BY ELINA: `https://medium.freecodecamp.org/learn-css-grid-in-5-minutes-f582e87b1228`.**

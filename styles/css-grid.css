@@ -1,0 +1,29 @@
+.grid {
+    display: grid;
+    grid-template-columns: 100px 100px auto 100px 100px;
+    grid-template-rows: auto;
+    grid-template-areas: "header header header header header" "main main . . sidebar" "footer footer footer footer footer";
+    grid-gap: 15px 10px; /* row, column */
+    justify-items: stretch; /* start | end | center | stretch */
+    align-items: center; /* start | end | center | stretch; */
+}
+
+.grid__cell {
+    padding: 10px;
+}
+
+.grid__block-header {
+    background-color: green;
+}
+
+.grid__block-footer {
+    background-color: lightgreen;
+}
+
+.grid__block-main {
+    background-color: lightblue;
+}
+
+.grid__block-side {
+    background-color: lightsalmon;
+}
