@@ -1,5 +1,7 @@
 .link {
-  color: red;
+  color: orange;
+} :visited {
+  color:red;
 }
 .about::first-letter {
   color:blue;
@@ -13,5 +15,5 @@ input:checked + label {
   font-style: italic;
 } 
 a[href^="http"] {
-  color:yellow;
+  color:green;
 }
