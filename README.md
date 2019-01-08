@@ -84,3 +84,44 @@ Better for Normalise rather than Reset.
 * 
 
 ## Unit
+
+## Specifity or SpeciFISHty
+
+## Box Model
+
+https://codepen.io/fundamental-frontend/
+
+## Positioning and flow
+
+* Normal flow: by default
+* Floating flow: `https://codepen.io/fundamental-frontend/pen/ajdEdL`.
+* Positioning flow:
+    * Border box: `https://codepen.io/fundamental-frontend/pen/YjQzYj`.
+
+## Accessibility
+
+`sr-only`: The .sr-only class hides an element to all devices except screen readers
+
+```css
+.sr-only {
+    position: absolute;
+    margin: -1px 0 0 -1px;
+    padding: 0;
+    display: block;
+    width: 1px;
+    height: 1px;
+    font-size: 1px;
+    line-height: 1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+    outline: 0;
+}
+```
+
+```html
+    <a href="#" target="_blank">
+        Click to Open Site
+        <span class="sr-only">This is an external link</span>
+    </a>
+```

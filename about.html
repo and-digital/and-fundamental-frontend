@@ -20,17 +20,20 @@
 <body>
     <a href="#main">Skip to main content</a>
     <main id="main" role="main">
+        <a href="#" target="_blank">
+            Click to Open Site
+            <span class="sr-only">This is an external link</span>
+        </a>
         <h1>About me</h1>
-        <section>
-            <img id="developer-image" src="src/resources/me.png" alt="Smiley Me" height="100" width="100"><span id="developer-name">Emmanuel
-                Alan Ferreyra Montes</span>
-        </section>
-        <section>
-            <h2>Contact me</h2>
-            <ul>
-                <li><span><b>Job Title:</b> Senior Product Develper</span></li>
-                <li><span><b>Company:</b> AND Digital</span></li>
-            </ul>
+        <section class="clearfix">
+            <img id="developer-image" src="src/resources/me.png" alt="Smiley Me" height="150" width="150">
+            <div id="developer-info">
+                <span id="developer-name">Emmanuel Alan Ferreyra Montes</span>
+                <ul>
+                    <li><span><b>Job Title:</b> Senior Product Develper</span></li>
+                    <li><span><b>Company:</b> AND Digital</span></li>
+                </ul>
+            </div>
         </section>
         <section>
             <h2>About</h2>
@@ -48,7 +51,7 @@
                 projects embedded in different environment have provide him.
             </span>
         </section>
-        <section>
+        <section class="sr-only">
             <h2>My personal interest</h2>
             <ul>
                 <li>Software Development</li>
