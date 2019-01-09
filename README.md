@@ -182,3 +182,6 @@ It opens a different dimension on the way you thing structure in your page.
     }
 }
 ```
+
+## Animations - transitions
+
